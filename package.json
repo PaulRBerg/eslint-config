@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PaulRBerg/eslint-config.git"
+    "url": "https://github.com/PaulRBerg/eslint-config.git"
   }
 }
