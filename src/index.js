@@ -6,13 +6,8 @@ module.exports = {
     "func-names": ["error", "as-needed"],
     "import/no-dynamic-require": "off",
     "import/no-extraneous-dependencies": "off",
-    indent: [
-      "error",
-      2,
-      {
-        SwitchCase: 1,
-      },
-    ],
+    /* Can't use both prettier and eslint's indent: https://github.com/eslint/eslint/issues/10930 */
+    indent: "off",
     "linebreak-style": "off",
     "max-len": [
       "warn",
