@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     "arrow-body-style": "off",
     "comma-dangle": ["error", "always-multiline"],
+    "curly": ["error", "all"],
     "func-names": ["error", "as-needed"],
     "import/no-dynamic-require": "off",
     "import/no-extraneous-dependencies": "off",
