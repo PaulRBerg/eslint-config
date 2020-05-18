@@ -1,7 +1,7 @@
 {
   "name": "@paulrberg/eslint-config",
   "description": "Eslint config to be shared across my personal projects and packages",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Paul Razvan Berg",
     "url": "https://paulrberg.com"
@@ -10,8 +10,8 @@
     "url": "https://github.com/paulrberg/eslint-config/issues"
   },
   "devDependencies": {
-    "eslint": "^6.x",
-    "eslint-config-prettier": "^6.x"
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^6.0.0"
   },
   "files": [
     "/src"
@@ -20,8 +20,8 @@
   "license": "MIT",
   "main": "./src",
   "peerDependencies": {
-    "eslint": "^6.x",
-    "eslint-config-prettier": "^6.x"
+    "eslint": "^6.0.0 || ^7.0.0",
+    "eslint-config-prettier": "^6.0.0"
   },
   "publishConfig": {
     "access": "public"

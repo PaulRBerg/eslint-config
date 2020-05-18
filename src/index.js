@@ -3,10 +3,11 @@ module.exports = {
   rules: {
     "arrow-body-style": "off",
     "comma-dangle": ["error", "always-multiline"],
-    "curly": ["error", "all"],
+    curly: ["error", "all"],
     "func-names": ["error", "as-needed"],
     "import/no-dynamic-require": "off",
     "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
     /* Can't use both prettier and eslint's indent: https://github.com/eslint/eslint/issues/10930 */
     indent: "off",
     "linebreak-style": "off",
@@ -21,6 +22,8 @@ module.exports = {
       },
     ],
     "no-console": "off",
+    "no-else-return": "off",
+    "no-lonely-if": "off",
     "no-trailing-spaces": [
       "error",
       {
@@ -43,6 +46,7 @@ module.exports = {
     ],
     "prefer-template": "off",
     quotes: ["error", "double", { avoidEscape: true }],
+    "spaced-comment": ["error", "always", { exceptions: ["*"] }],
     strict: "off",
   },
 };
