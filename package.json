@@ -17,7 +17,7 @@
     "/src"
   ],
   "homepage": "https://github.com/paulrberg/eslint-config#readme",
-  "license": "MIT",
+  "license": "WTFPL",
   "main": "./src",
   "peerDependencies": {
     "eslint": "^6.0.0 || ^7.0.0",
